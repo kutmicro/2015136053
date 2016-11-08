@@ -1,6 +1,6 @@
 #include "pitches.h"
  
-int speakerpin = 12; //스피커가 연결된 디지털핀 설정
+int speakerpin = 36; //스피커가 연결된 디지털핀 설정
  
 //음계 데이터 (24개)
 int melody[] = {NOTE_G7,NOTE_G7,NOTE_A7,NOTE_A7,NOTE_G7,
