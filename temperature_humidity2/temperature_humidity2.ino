@@ -1,5 +1,5 @@
 #include <DHT11.h>    //라이브러리 불러옴
-int pin=2;            //Signal 이 연결된 아두이노의 핀번호
+int pin=38;            //Signal 이 연결된 아두이노의 핀번호
 DHT11 dht11(pin);        
 void setup()
 {
