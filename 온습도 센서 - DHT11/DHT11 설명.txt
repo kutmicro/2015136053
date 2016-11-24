@@ -1,0 +1,14 @@
+DHT11은 핀이 4개가있음
+1pin은 VDD (IC power suppl pin) 파워 공급
+2pin은 MCU와 데이터 송신 - 5k 저항을 달아주어야 함
+	MCU = Micro-computer Unite or single chip computer
+3pin은 NULL;
+4pin은 GND (ground : 접지)
+
+DHT11은 MCU라는 전용 프로세서와 DHT11 센서와의
+소통으로 사용되어짐
+MCU가 신호를 보내면 DHT11은 습도와 온도 정보가
+포함된 40bit 데이터를 MCU에게 보낸다.
+상대습도는 온도에 꽤 많이 의존한다.
+여전히 습도와 온도센서는 같은 온도에서 자동한다.
+
